@@ -7,6 +7,7 @@ const initialState = {};
 
 const middleware = [thunk];
 
+// createStore needs a reducer, an initial state and an optional thunk which will help us to display store data in browser F12 develop tools
 const store = createStore(
   rootReducer,
   initialState,
